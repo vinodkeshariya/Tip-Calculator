@@ -1,0 +1,66 @@
+body {
+  background-image: url(tip2.jpg);
+}
+
+.container {
+  width: 440px;
+  margin: 0 auto;
+  text-align: center;
+}
+.title h1{
+    font-size: 45px;
+    color: #dc1313;
+    font-weight: 700;
+    font-family: monospace,sans-serif;
+
+}
+
+.input-group {
+  margin: 10px 0;
+}
+
+label {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+input {
+  width: 80%;
+  height: auto;
+  padding: 5px;
+  font-size: 20px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  margin-top: 15px;
+  background-color: #67d9a2;
+ border: none;
+ color: black;
+}
+
+button {
+    background: #ea6f15;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+button::after{
+  font-family: FontAwesome;
+  content: "\f0ab";
+  color: #2e3130;
+    font-size: 15px;
+    padding-left: 7px;
+}
+
+button:hover {
+  background: #bd1903;
+ 
+}
+
+
+.result p {
+  font-size: 30px;
+    color: #fa0b0b;
+    font-family:sans-serif;
+    font-weight: 600;
+}
